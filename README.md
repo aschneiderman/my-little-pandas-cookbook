@@ -1,9 +1,9 @@
-python4excelusers
-=================
+### cookbook-notes
 
-Cookbooks and other info about using Pandas, IPython Notebook, etc. aimed at Excel users who want to roam free beyond the confines of spreadsheets.
+My personal notes dump on how to use Pandas,  IPython Notebook, and other Python data science.
 
-For more info:
+Here's the [cookbook](http://nbviewer.ipython.org/github/aschneiderman/cookbook-notes/blob/master/Pandas_4_Excel_Users.ipynb).
 
- - Project [home page](http://geektoys.github.io/python4excelusers/index.html)
- - Python for Excel Users [Cookbook](http://nbviewer.ipython.org/github/geektoys/python4excelusers/blob/master/Pandas_4_Excel_Users.ipynb)
+You can also get to the list of [tutorials](http://nbviewer.ipython.org/github/aschneiderman/cookbook-notes/blob/master/Tutorials.ipynb) and [online communities](http://nbviewer.ipython.org/github/aschneiderman/cookbook-notes/blob/master/Online_Communities.ipynb).
+
+NOTE:  These are all IPython Notebooks, so you'll need to use Firefox or Chrome to view them.
