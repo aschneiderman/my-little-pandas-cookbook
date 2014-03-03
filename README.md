@@ -2,7 +2,7 @@
 
 My personal notes dump on how to use Pandas,  IPython Notebook, and other Python data science.
 
-Here's the [cookbook](http://nbviewer.ipython.org/github/aschneiderman/cookbook-notes/blob/master/Pandas_4_Excel_Users.ipynb).
+Here's the [cookbook](http://nbviewer.ipython.org/github/aschneiderman/cookbook-notes/blob/master/cookbook/Pandas_4_Excel_Users.ipynb).
 
 You can also get to the list of [tutorials](http://nbviewer.ipython.org/github/aschneiderman/cookbook-notes/blob/master/Tutorials.ipynb) and [online communities](http://nbviewer.ipython.org/github/aschneiderman/cookbook-notes/blob/master/Online_Communities.ipynb).
 
