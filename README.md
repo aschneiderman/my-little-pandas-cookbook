@@ -1,4 +1,4 @@
-### cookbook-notes
+### My Little Pandas Cookbook
 
 My personal notes dump on how to use Pandas,  IPython Notebook, and other Python data science.
 
