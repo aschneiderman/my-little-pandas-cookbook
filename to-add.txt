@@ -6,6 +6,14 @@ https://youtu.be/nxWginnBklU
 proper pandas -- eg chaining:
 https://youtu.be/UURvPeczxJI
 
+Using Pandas method chaining to improve code readability
+https://github.com/BindiChen/machine-learning/blob/master/data-analysis/007-method-chaining/method-chaining.ipynb
+
+Lots of other great info on pandas
+https://github.com/BindiChen/machine-learning
+
+
+
 .dtypes
 
 count: non missing values
