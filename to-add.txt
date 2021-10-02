@@ -5,3 +5,62 @@ https://youtu.be/nxWginnBklU
 
 proper pandas -- eg chaining:
 https://youtu.be/UURvPeczxJI
+
+.dtypes
+
+count: non missing values
+
+chain w spacing:
+(autos
+[cols]
+.astype( {'highway': 'int8', ...})
+.select_dtypes(int,'int8')
+.describe
+)
+
+.query
+
+to reduce memory usage -- which means more room for data -- convert everything to types, including 'category'
+
+.assign
+drive=autos.drive.fillna('Other').astype('Category'),
+automatic=auto.trany.str.contains('Auto')
+
+or .str.extract(r'(\d)+').fillna('20').astype('int8')
+.drop(columns=['bla'])
+
+why chain: looks like a recipe
+vs 50 lines of code, w a lot of intermediary variables (which eats up memory)
+to debug it: can easily comment out lines
+
+
+
+Don't use apply if you can
+instead 
+autos.make.astype(str).isin({'red', 'blue'})
+
+or if make is a categorical:
+autos.make.isin({'red', 'blue'})
+
+category: stores int and maps it to string 
+
+if:
+.assign(country=np.select(cond,true,false)
+
+%%timeit at start of cell: will time it
+
+for loops: not always bad, just thing twice -- often don't need it, not using it is faster
+
+Pivot table w the fixins:
+( 
+.groupby
+.agg(['min','mean', my_function])
+
+
+using .pipe?  
+
+
+pandas often have several ways to do things 
+
+np.where, np.select
+https://gitlab.com/cheevahagadog/talks-demos-n-such/-/blob/master/PyGotham2019/PyGotham-updated.ipynb
