@@ -1,3 +1,13 @@
+# Index
+
+index: looks like just another column, but it's not
+it's a unique label for each of your rows
+ex: to look up a row, use index
+
+just like w arrays etc, by default it's 0,1,2, etc 
+But can use any data -- eg date or students name 
+multi index: where it's unique not by one column but several columns -- esp w hierarchical data
+
 Speed up
 https://youtu.be/HN5d490_KKk
 https://youtu.be/N4pj3CS857c
