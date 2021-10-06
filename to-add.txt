@@ -1,3 +1,9 @@
+In one series but not another
+res = ps1[~ps1.isin(ps2)]
+
+Equiv of SQL:
+https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html
+
 # Index
 
 index: looks like just another column, but it's not
@@ -18,6 +24,17 @@ https://youtu.be/UURvPeczxJI
 
 Using Pandas method chaining to improve code readability
 https://github.com/BindiChen/machine-learning/blob/master/data-analysis/007-method-chaining/method-chaining.ipynb
+
+Assign and chaining
+https://www.metasnake.com/blog/pydata-assign.html
+
+Learning python for data folks from him:
+https://store.metasnake.com/py4ds
+
+Effective Python Testing Webinar
+
+Do you want to:Sleep better at night?Kill bugs in your code?Keep customers happy?Make developers stay sane? You do test your Python code right? If not, the best time to start is now.  In this webinar, we will introduce simple testing strategies, and how you can start to reap the benefits of testing now.
+https://store.metasnake.com/effective-python-testing-webinar
 
 Lots of other great info on pandas
 https://github.com/BindiChen/machine-learning
