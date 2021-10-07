@@ -1,6 +1,8 @@
 In one series but not another
 res = ps1[~ps1.isin(ps2)]
 
+try df.info()
+
 Equiv of SQL:
 https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html
 
