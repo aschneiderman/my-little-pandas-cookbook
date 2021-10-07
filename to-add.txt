@@ -1,3 +1,11 @@
+
+
+The location for "Anaconda3 , Windows10, Everyone to Access" is c:\programData\Anaconda3\Lib\site-packages\notebook\static\custom\custom.css
+
+We may look for ~/.jupyter/custom/custom.css 
+.
+
+
 In one series but not another
 res = ps1[~ps1.isin(ps2)]
 
