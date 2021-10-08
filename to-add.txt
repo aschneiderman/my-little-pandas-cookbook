@@ -1,4 +1,36 @@
 
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+
+For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:
+
+Example
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+add some css:
+
+td, th {
+   border:none;
+}
+
+div.a {
+  font-size: 15px;
+}
+
+div.b {
+  font-size: large;
+}
+
+div.c {
+  font-size: 150%;
+}
+
+
+
 In one series but not another
 res = ps1[~ps1.isin(ps2)]
 
