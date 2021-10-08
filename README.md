@@ -6,4 +6,4 @@ Here's the [cookbook](http://nbviewer.ipython.org/github/aschneiderman/cookbook-
 
 You can also get to the list of [tutorials](http://nbviewer.ipython.org/github/aschneiderman/cookbook-notes/blob/master/Tutorials.ipynb) and [online communities](http://nbviewer.ipython.org/github/aschneiderman/cookbook-notes/blob/master/Online_Communities.ipynb).
 
-NOTE:  These are all IPython Notebooks, so you'll need to use Firefox or Chrome to view them.
+NOTE:  These are all IPython Notebooks, so you'll need to use Firefox or Chrome to view them. 
