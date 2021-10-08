@@ -1,11 +1,4 @@
 
-
-The location for "Anaconda3 , Windows10, Everyone to Access" is c:\programData\Anaconda3\Lib\site-packages\notebook\static\custom\custom.css
-
-We may look for ~/.jupyter/custom/custom.css 
-.
-
-
 In one series but not another
 res = ps1[~ps1.isin(ps2)]
 
@@ -29,14 +22,6 @@ https://youtu.be/HN5d490_KKk
 https://youtu.be/N4pj3CS857c
 https://youtu.be/nxWginnBklU
 
-proper pandas -- eg chaining:
-https://youtu.be/UURvPeczxJI
-
-Using Pandas method chaining to improve code readability
-https://github.com/BindiChen/machine-learning/blob/master/data-analysis/007-method-chaining/method-chaining.ipynb
-
-Assign and chaining
-https://www.metasnake.com/blog/pydata-assign.html
 
 Learning python for data folks from him:
 https://store.metasnake.com/py4ds
@@ -56,27 +41,10 @@ https://github.com/BindiChen/machine-learning
 count: non missing values
 
 chain w spacing:
-(autos
-[cols]
-.astype( {'highway': 'int8', ...})
-.select_dtypes(int,'int8')
-.describe
-)
-
 .query
 
 to reduce memory usage -- which means more room for data -- convert everything to types, including 'category'
 
-.assign
-drive=autos.drive.fillna('Other').astype('Category'),
-automatic=auto.trany.str.contains('Auto')
-
-or .str.extract(r'(\d)+').fillna('20').astype('int8')
-.drop(columns=['bla'])
-
-why chain: looks like a recipe
-vs 50 lines of code, w a lot of intermediary variables (which eats up memory)
-to debug it: can easily comment out lines
 
 
 
@@ -89,8 +57,6 @@ autos.make.isin({'red', 'blue'})
 
 category: stores int and maps it to string 
 
-if:
-.assign(country=np.select(cond,true,false)
 
 %%timeit at start of cell: will time it
 
@@ -102,7 +68,6 @@ Pivot table w the fixins:
 .agg(['min','mean', my_function])
 
 
-using .pipe?  
 
 
 pandas often have several ways to do things 
