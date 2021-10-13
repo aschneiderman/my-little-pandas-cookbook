@@ -1,0 +1,9 @@
+
+for i, thing in enumerate(stuff):
+
+formatting strings:
+
+name= "Joy"
+f"Hi {name}"
+
+if c in colors:
