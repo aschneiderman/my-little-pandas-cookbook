@@ -1,0 +1,47 @@
+VS Code
+
+
+You can trigger IntelliSense in any editor window by typing ⌃Space 
+As provided by the language service, you can see quick info for each method by either pressing ⌃Space or clicking the info icon. The accompanying documentation for the method will now expand to the side. The expanded documentation will stay so and will update as you navigate the list. You can close this by pressing ⌃Space again or by clicking on the close icon.
+
+Quickly shrink or expand the current selection. Trigger it with ⌃⇧⌘← and ⌃⇧⌘→.
+
+For a quick navigation across the workbench, we recommend using Focus Next Part (F6) and Focus Previous Part (⇧F6) commands.
+
+Anchor selection#
+To make it easier to start and end selection using the keyboard we have four commands: Set Selection Anchor (⌘K ⌘B), Select From Anchor to Cursor (⌘K ⌘K), Cancel Selection Anchor (Escape) and Go to Selection Anchor.
+
+Tab navigation#
+You can use the Tab key to jump between VS Code UI controls. Use Shift+Tab to tab in reverse order. As you tab through the UI controls, you can see an indicator around the UI element once the element gains focus.
+
+All elements in the workbench support tab navigation, but workbench toolbars and tab lists have only one tab stop, to avoid having too many. Once the focus is on a toolbar or a tab list, you can use the arrow keys to navigate within them.
+
+Tab trapping#
+By default, pressing the Tab within a source code file inserts the Tab character (or spaces depending on your Indentation setting) and does not leave the open file. You can toggle the trapping of Tab with ⌃⇧M and subsequent Tab keys will move focus out of the file. When default Tab trapping is off, you will see an indicator in the Status Bar.
+
+
+Terminal accessibility#
+Output in the Integrated Terminal can be navigated through by using the "navigation mode" commands available in the Command Palette (press F1 and search for "terminal navigation mode").
+
+
+Status Bar accessibility#
+Once a focus is in the Status bar via Focus Next Part (F6) arrow navigation can be used to move focus between Status bar entries.
+
+Debugger accessibility#
+The VS Code debugger UI is user accessible and has the following features:
+
+Changes in debug state are read out (for example 'started', 'breakpoint hit', 'terminated', ...).
+All debug actions are keyboard accessible.
+Both the Run view and Debug Console support Tab navigation.
+Debug hover is keyboard accessible (⌘K ⌘I).
+Keyboard shortcuts can be created to set focus to each debugger area.
+
+
+To explore:
+Multiselect, etc
+https://code.visualstudio.com/docs/editor/codebasics
+
+Note: If you're using an Anaconda distribution, be sure to use an Anaconda command prompt
+
+
+You can also set your own keyboard shortcuts. File > Preferences > Keyboard Shortcuts (⌘K ⌘S) brings up the Keyboard Shortcuts editor where you can discover and modify keybindings for VS Code actions. See Key Bindings for more details on customizing or adding your own keyboard shortcuts.
