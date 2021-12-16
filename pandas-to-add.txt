@@ -1,6 +1,9 @@
 
 try df.info()
 
+vectorize ex:
+df['distance'] = my_function(x,y, df['lattitude'], df['longitude'])
+
 Equiv of SQL:
 https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html
 
