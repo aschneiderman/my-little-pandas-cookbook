@@ -9,4 +9,5 @@ You can also get to the list of [tutorials](http://nbviewer.ipython.org/github/a
 NOTE:  These are all IPython Notebooks, so you'll need to use Firefox or Chrome to view them. 
 
 NOTE: Need to add:
-[Pandas Tutor](https://pandastutor.com)
+- [Pandas Tutor](https://pandastutor.com)
+- Video: [Effective Pandas](https://youtu.be/UURvPeczxJI)
