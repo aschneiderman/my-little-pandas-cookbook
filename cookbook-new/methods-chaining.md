@@ -11,13 +11,13 @@ tables;
 
 The pipes on either end of the table are optional.  at least three hyphens in each column of the header row.
 
-Command | Description 
---- | :--- 
-pivot_table |  .pivot_table(
+|Command | Description |
+|--- | :--- |
+| pivot_table |  .pivot_table(
         values='Survived', 
         columns='Pclass', 
         index='ageGroup', 
-        aggfunc='mean')
+        aggfunc='mean') |
 
 
 test 2:
