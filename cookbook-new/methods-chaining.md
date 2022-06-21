@@ -13,11 +13,7 @@ The pipes on either end of the table are optional.  at least three hyphens in ea
 
 |Command | Description |
 |--- | :--- |
-| pivot_table |  .pivot_table(
-        values='Survived', 
-        columns='Pclass', 
-        index='ageGroup', 
-        aggfunc='mean') |
+| pivot_table |  .pivot_table(values='Survived', columns='Pclass', index='ageGroup', aggfunc='mean') |
 
 
 test 2:
