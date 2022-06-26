@@ -1,5 +1,11 @@
 # Methods Chaining
 
+Need parentheses after the =
+
+example:
+```Python
+df_mc_break_parens = (pd.read_csv('data/src/sample_pandas_normal.csv', index_col=0).assign(point_ratio=df['point'] / 100).drop(columns='state').sort_values('age').head(3))
+```
 
 - Newer methods:  query(), assign(), pivot_table(),  pipe() (user-defined methods)
 
