@@ -7,6 +7,10 @@ df['distance'] = my_function(x,y, df['lattitude'], df['longitude'])
 Equiv of SQL:
 https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html
 
+Fast, Flexible, Easy and Intuitive: How to Speed Up Your Pandas Projects:
+https://realpython.com/fast-flexible-pandas/
+
+
 # Index
 
 index: looks like just another column, but it's not
